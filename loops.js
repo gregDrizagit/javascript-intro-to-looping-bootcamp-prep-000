@@ -52,7 +52,7 @@ function doWhileLoop(array)
 
     array.splice();
 
-  }while(array.length > 0 && maybeTrue())
+  }while(array.length === 0 && maybeTrue())
 
   return(array);
 

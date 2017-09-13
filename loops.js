@@ -50,7 +50,7 @@ function doWhileLoop(array)
 {
   do{
 
-    array.splice();
+    array.splice(0, 1);
 
   }while(array.length === 0 && maybeTrue())
 
